@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="container">
+        <div id="desktop">
+            <div class="logo">
+                Adyasa Sahoo
+            </div>
+            <div class="sections">
+                <a href="#about" class="nav">About</a>
+                <a href="#projects" class="nav">Project</a>
+                <a href="#intership" class="nav">Internship</a>
+                <a href="#contact" class="nav">Contact</a>
+            </div>
+        </div>
+        <div id="hamburger_nav">
+            <div class="logo">
+                Adyasa Sahoo
+            </div>
+            <div class="hamburger_menu">
+                <div class="hamburger_icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-link">
+                   <li><a href="#about"   onclick="togglemenu()">About</a></li> 
+                   <li><a href="#projects"  onclick="togglemenu()">Project</a></li> 
+                    <li><a href="#intership"  onclick="togglemenu()">Internship</a></li>
+                    <li><a href="#contact"  onclick="togglemenu()">Contact</a></li>
+                </div>
+            </div>
+
+        </div>
+        <div class="sec">
+        <div class="section1">
+            
+            <div><img src="photo/profile.jpeg" id="profile"></div>
+            <div class="info">
+                <p id="p1">Hello I'am</p>
+                <h3 id="p2">Adyasa Sahoo</h3>
+                <h5 id="p3">Frontend Developer</h5>
+                <div class="button">
+                    <a href="Resume.pdf" target="_blank"><button id="cv">Download CV</button></a>
+                    
+                </div>
+                <div>
+                <a href="https://www.linkedin.com/in/adyasa-sahoo" target="_blank"><img src="photo/linkedin.png" class="emoji" id="linkedin"></a>
+                <a href="https://github.com/adyasa-sahoo" target="_blank"><img src="photo/github.jpg" class="emoji" id="github"></a>
+                <!-- <div><img src="photo/linkedin.png" class="emoji" id="linkedin" onclick="location.href='https://github.com/adyasa-sahoo'" target="_blank"><img src="photo/github.jpg" class="emoji" id="github" onclick="location.href='https://github.com/adyasa-sahoo'">--></div> 
+            </div>
+            </div>
+            
+      
+        <div id="about">
+            <p>Get to know</p>
+            <h1>About Me</h1>
+            
+            <div class="paratop">
+                <div class="box">  <a href="intership.html" target="_blank"><div id="intership">
+                    <img src="photo/inter.png" id="intern">
+                    <h3>Intership</h3>
+                    <p>Company:Inventace</p>
+                    <p>Domain: Web Development</p>
+                    <p>time period: 4 weeks</p>
+
+                </div>
+            </a>
+                <a href="Education.html" target="_blank"><div id="education">
+                    <img src="photo/edu.png" id="edu">
+                    <h3>Education</h3>
+                    <p>BTech</p>
+                    <p>Computer Science & Engineering</p>
+                </div></a>
+                </div>
+            <div id="para">I am a 4th-year B.Tech Computer Science and Engineering student at CV Raman Global University,<br> specializing in front-end development. Passionate about crafting visually appealing and user-friendly web interfaces,<br> I continuously enhance my skills to stay updated with the latest technologies.</div>
+            <br>
+            <div class="skill">
+                <h3>Skills:Java  ,  HTML  ,  CSS,  JavaScript  &  React</h3>
+                
+            </div>
+        
+          </div>
+          </div>
+      
+    </div>
+    <div id="projects">
+        <p>Browse my recent</p>
+        <h1>Projects</h1>
+        <div class="cards">
+            <div class="project">
+                <div class="imagep">
+                <img src="photo/react.png" class="image">
+                </div>
+            <div class="descp">
+                <h3>React_prj_name</h3>
+                <p>description</p>
+                <button>github</button>
+            </div>
+            </div>
+           
+            <div class="project">
+                <div class="imagep">
+                <img src="photo/tic-tac-toe.jfif" class="image">
+            </div>
+            <div class="descp">
+                <h3>Tic-Tac-Toe</h3>
+                <p>description</p>
+                <button>github</button>
+            </div>
+        </div>
+        <div class="project">
+            <div class="imagep">
+            <img src="photo/casper.jpg" class="image">
+            </div>
+        <div class="descp">
+            <h3>Casper Website Clone</h3>
+            <p>description</p>
+            <button>github</button>
+        </div>
+    </div>   
+
+        </div>
+        <div class="contact">
+            <p>Get in Touch</p>
+            <h2>Contact Me</h2>
+            <div class="contactbox">
+                <div><img src="photo/images.png" class="conphoto">
+                <a href="mailto:adyasasahoo05@gmail.com">adyasasahoo05@gmail.com </a></div>
+                <div><img src="photo/phone.png" class="conphoto">7608844395</div>
+    
+            </div>
+
+        </div>
+</div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
